@@ -4,15 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Webpack Starter Kit</title>
+    <title>Библиотеки</title>
   </head>
 
   <body>
-    <article class="intro">
-      <h1>Webpack starter kit</h1>
+    <ul id="page-nav">
+      <li><a href="#team">Team</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#profile">Profile</a></li>
+    </ul>
 
-      <!-- HTML image reference example. -->
-      <img src="./images/intro.png" alt="" width="640" />
-    </article>
+    <div class="siema">
+      <div>Hi, I'm slide 1</div>
+      <div>Hi, I'm slide 2</div>
+      <div>Hi, I'm slide 3</div>
+      <div>Hi, I'm slide 4</div>
+    </div>
+
+    <button class="js-prev">prev</button>
+    <button class="js-next">next</button>
+    <hr />
+    <button type="button" data-open-modal>open modal</button>
+    <template id="modal">
+      <div class="modal">
+        <p>I'm a modal created from a DOM element/node.</p>
+        <button type="button" data-close-modal>close modal</button>
+      </div>
+    </template>
   </body>
 </html>
